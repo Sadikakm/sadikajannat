@@ -5,6 +5,8 @@ from django.db import models
 class Carusel(models.Model):
 
     title = models.CharField(max_length=50)
+    
+    slider = models.CharField(max_length=200)
 
     image = models.ImageField(upload_to='carousel/')
 

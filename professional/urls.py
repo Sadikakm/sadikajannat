@@ -21,8 +21,10 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-     path('bootstrap/',include('boostrap.urls',namespace='boostrap')),
-     path('', include('carousel.urls', namespace='carousel')),
+    path('', include('jsdreamIT.urls', namespace='jsdreamIT')),
+    path('bootstrap/',include('boostrap.urls',namespace='boostrap')),
+    path('carousel/', include('carousel.urls', namespace='carousel')),
+     
 ]
 
 if settings.DEBUG:

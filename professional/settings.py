@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     
     'boostrap',
     'carousel',
+    'jsdreamIT',
 
     #Third perty app
 
